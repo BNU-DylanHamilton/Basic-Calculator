@@ -20,6 +20,12 @@ namespace Basic_Calculator
             outcomeLabel.Text = "";
         }
 
+        /// <summary>
+        /// This shows a quit screen after the 
+        /// button has been clicked, and then 
+        /// closes the program once the quit screen 
+        /// has been clicked
+        /// </summary>
         private void closeApplication(object sender, EventArgs e)
         {
             quitScreen QScreen = new quitScreen();
@@ -57,6 +63,11 @@ namespace Basic_Calculator
             }
         }
 
+        /// <summary>
+        /// This shows a start up screen before the 
+        /// main program and once clicked shows the
+        /// main program after a 2 second wait time.
+        /// </summary>
         private void startUpScreen(object sender, EventArgs e)
         {
             splashScreenForm SScreen = new splashScreenForm();
