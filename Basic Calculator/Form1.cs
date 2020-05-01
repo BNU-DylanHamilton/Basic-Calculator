@@ -17,7 +17,6 @@ namespace Basic_Calculator
         public calculatorForm()
         {
             InitializeComponent();
-            outcomeLabel.Text = "";
         }
 
         /// <summary>
